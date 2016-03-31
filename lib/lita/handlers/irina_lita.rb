@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class IrinaLita < Handler
-    	namespace "irina"
+    	namespace "Irina"
       # insert handler code here
 
       # config :username, required: true, type: String
@@ -15,7 +15,7 @@ module Lita
       # config :admins, required: false, type: Array
       # config :merdevl_user, required: false, type: String
       # config :merdevl_pwd, required: false, type: String
-       config :oracle_auth, required: false, type: Hash
+       config :oracle_auth, required: true, type: Hash
        route(
         /^dbstatus\s#{DBNAME_PATTERN}$/,
         :oracle,
