@@ -1,7 +1,9 @@
+require 'oci8'
+require 'optparse'
+require 'getoptlong'
 module Lita
   module Handlers
     class Irina < Handler
-    	namespace "Irina"
       # insert handler code here
 
       # config :username, required: true, type: String
@@ -50,10 +52,7 @@ module Lita
         response.reply(x)
         cursor.close()
       end
-      
-      
-
-       Lita.register_handler(Irina)
     end
+    Lita.register_handler(Irina)
   end
 end
