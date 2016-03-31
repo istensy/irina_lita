@@ -1,6 +1,5 @@
-require 'oci8'
-require 'optparse'
-require 'getoptlong'
+require "oci8"
+
 module Lita
   module Handlers
     class Irina < Handler
@@ -53,6 +52,6 @@ module Lita
         cursor.close()
       end
     end
-    Lita.register_handler(Irina)
+    Lita.register_handler(irina)
   end
 end

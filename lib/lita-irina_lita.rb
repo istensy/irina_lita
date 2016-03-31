@@ -4,7 +4,7 @@ Lita.load_locales Dir[File.expand_path(
   File.join("..", "..", "locales", "*.yml"), __FILE__
 )]
 
-Lita::Handlers::IrinaLita.template_root File.expand_path(
+Lita::Handlers::Irina.template_root File.expand_path(
   File.join("..", "..", "templates"),
  __FILE__
 )

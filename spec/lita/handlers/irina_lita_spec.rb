@@ -1,4 +1,4 @@
 require "spec_helper"
 
-describe Lita::Handlers::IrinaLita, lita_handler: true do
+describe Lita::Handlers::Irina, lita_handler: true do
 end
