@@ -52,6 +52,6 @@ module Lita
         cursor.close()
       end
     end
-    Lita.register_handler("irina")
+    Lita.register_handler(Irina)
   end
 end
