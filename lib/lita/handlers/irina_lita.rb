@@ -1,6 +1,6 @@
 module Lita
   module Handlers
-    class IrinaLita < Handler
+    class Irina < Handler
     	namespace "Irina"
       # insert handler code here
 
@@ -53,7 +53,7 @@ module Lita
       
       
 
-       Lita.register_handler(self)
+       Lita.register_handler(Irina)
     end
   end
 end
